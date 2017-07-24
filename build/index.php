@@ -1,3 +1,5 @@
+<?php $text = "TEST" ?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,10 +8,16 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 </head>
 <body>
-	<form>
-		<input type="text" name="title">
-		<input type="text" name="text">
-	</form>
+	<div class="jumbotron">
+		<?php echo $text; ?>
+	</div>
+	<div class="container-fluid">
+		<form>
+			<input class="m-3" type="text" name="title">
+			<br>
+			<input class="m-3" type="text" name="text">
+		</form>
+	</div>
 
 
 

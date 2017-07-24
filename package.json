@@ -21,7 +21,9 @@
   },
   "homepage": "https://github.com/maximumdev/upload-interface#readme",
   "devDependencies": {
+    "browser-sync": "^2.18.13",
     "gulp": "^3.9.1",
+    "gulp-connect-php": "^1.0.1",
     "gulp-jshint": "^2.0.4",
     "gulp-ruby-sass": "^2.1.1",
     "gulp-sourcemaps": "^2.6.0",
